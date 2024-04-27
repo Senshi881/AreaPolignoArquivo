@@ -30,7 +30,6 @@ int main() {
 
     fclose(arquivo);
 
-    // Calcular a área do polígono dividindo-o em triângulos
     for (int i = 1; i < vertices - 1; i++) {
         areaTotal += AreaTriangulo(pontos[0], pontos[i], pontos[i+1]);
     }
